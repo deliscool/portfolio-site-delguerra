@@ -457,8 +457,20 @@ section { padding: 56px 0; }
   white-space: nowrap;
 }
 
-/* Text-only project cards (no thumbnail) */
-.project-card--text { grid-template-columns: 1fr; }
-@media (max-width: 560px) {
-  .project-card--text { grid-template-columns: 1fr; }
+/* Strategy diagram in the projects hero */
+.strategy-figure {
+  max-width: 860px;
+  margin: 30px auto 4px;
+  padding: 14px;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.strategy-figure img { width: 100%; height: auto; border-radius: 2px; }
+.strategy-figure figcaption {
+  margin-top: 12px;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
 }
