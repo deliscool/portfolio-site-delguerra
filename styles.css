@@ -6,6 +6,7 @@
   --navy-700: #1e3350;
   --gold-400: #d7b56d;
   --gold-300: #e8cd8f;
+  --sand-300: #c8bc92; /* carried over from delyariguerra.tech; secondary accent for metadata labels */
   --ink-100: #f4f6f9;
   --ink-300: #c7cedb;
   --ink-500: #8c98ac;
@@ -87,7 +88,7 @@ p { margin: 0 0 1em; color: var(--ink-300); }
 
 .brand-tag {
   font-size: 0.65rem;
-  color: var(--gold-300);
+  color: var(--sand-300);
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }
@@ -170,7 +171,7 @@ p { margin: 0 0 1em; color: var(--ink-300); }
   font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--gold-300);
+  color: var(--sand-300);
   margin-bottom: 10px;
 }
 
@@ -221,7 +222,7 @@ section { padding: 56px 0; }
   font-size: 0.72rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--gold-300);
+  color: var(--sand-300);
   margin-bottom: 10px;
   display: block;
 }
@@ -323,7 +324,7 @@ section { padding: 56px 0; }
 .job:last-child { padding-bottom: 4px; }
 
 .job-title { font-size: 1.05rem; margin-bottom: 2px; color: var(--ink-100); font-weight: 600; }
-.job-meta { font-size: 0.85rem; color: var(--gold-300); margin-bottom: 10px; }
+.job-meta { font-size: 0.85rem; color: var(--sand-300); margin-bottom: 10px; }
 .job ul { margin: 0; padding-left: 18px; color: var(--ink-300); }
 .job ul li { margin-bottom: 6px; font-size: 0.93rem; }
 
@@ -362,7 +363,7 @@ section { padding: 56px 0; }
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--gold-300);
+  color: var(--sand-300);
   margin-bottom: 6px;
 }
 
