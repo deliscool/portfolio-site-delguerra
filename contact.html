@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Del Guerra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-inner" aria-label="Primary">
+    <div class="brand">
+      <span class="brand-name">Del Guerra</span>
+      <span class="brand-tag">Enterprise Solutions Leader</span>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+      <li><a href="https://devmoms.com/" target="_blank" rel="noopener">DevMoms</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom:20px;">
+    <div class="wrap">
+      <span class="hero-eyebrow">Get In Touch</span>
+      <h1>Let's talk</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <form class="contact-form" action="mailto:info@devmoms.com" method="post" enctype="text/plain">
+        <div class="form-row">
+          <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="First Name" autocomplete="given-name">
+          </div>
+          <div>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="Last Name" autocomplete="family-name">
+          </div>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" autocomplete="email" required>
+        </div>
+        <div>
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="Subject">
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="Message" required></textarea>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-solid" style="cursor:pointer;">Send</button>
+        </div>
+      </form>
+
+      <div class="direct-contact">
+        <p>Prefer email directly? Reach me at <a href="mailto:info@devmoms.com">info@devmoms.com</a>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="social-row">
+      <a href="https://www.linkedin.com/in/del-yari-g/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+      <a href="https://www.instagram.com/devmoms_devshop/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+      <a href="https://github.com/deliscool" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+    </div>
+    <p class="footer-email">Contact — <a href="mailto:info@devmoms.com">info@devmoms.com</a></p>
+    <p>&copy; 2023 by Del Guerra</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
