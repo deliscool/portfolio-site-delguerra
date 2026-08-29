@@ -13,10 +13,11 @@
 
 <header class="site-header">
   <nav class="nav-inner" aria-label="Primary">
-    <div class="brand">
-      <span class="brand-name">Del Guerra</span>
-      <span class="brand-tag">Enterprise Solutions Leader</span>
-    </div>
+    <a class="brand" href="index.html" aria-label="Del Guerra, home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-stack"><span>Del</span><span>G.</span></span>
+      <span class="brand-tag">Enterprise Solutions Leader<br>\Product Manager<br>\Scrum Master</span>
+    </a>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
     <ul class="nav-links">
       <li><a href="index.html" aria-current="page">About Me</a></li>
@@ -29,37 +30,43 @@
 </header>
 
 <main>
-  <section class="hero">
-    <div class="wrap">
-      <img class="hero-photo" src="assets/del-guerra-portrait-home.jpg" alt="Portrait of Del Guerra">
-      <span class="hero-eyebrow">Technical Program &amp; Product Leader</span>
-      <h1>Del Guerra</h1>
-      <p class="hero-role">🚀 Technical Program &amp; Product Leader | Atlassian &amp; Data Platforms | Agile Coaching &amp; Governance</p>
-      <p class="hero-meta">Certifications: A-CSM, CSPO, A-CSPO, SAFe SSM, SAFe SA, SAFe POPM, PMP, ITIL v4<br>Education: Masters in Information Technology Management</p>
-      <div class="social-row">
-        <a href="https://www.linkedin.com/in/del-yari-g/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
-        <a href="https://github.com/deliscool" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+  <section class="split-hero">
+    <div class="split-hero__panel" aria-hidden="true"></div>
+    <div class="split-hero__photo" aria-hidden="true"></div>
+
+    <div class="split-hero__inner">
+      <article class="id-card">
+        <div class="id-card__body">
+          <img src="assets/del-guerra-portrait-home.jpg" alt="Portrait of Del Guerra">
+          <h1>Del Guerra</h1>
+          <p class="id-card__role">&#128640; Technical Program &amp; Product Leader | Atlassian &amp; Data Platforms | Agile Coaching &amp; Governance</p>
+          <p class="id-card__meta">Certifications: A-CSM, CSPO, A-CSPO, SAFe SSM, SAFe SA, SAFe POPM, PMP, ITIL v4</p>
+          <p class="id-card__meta">Education: Masters in Information Technology Management</p>
+        </div>
+        <div class="id-card__social">
+          <a href="https://www.linkedin.com/in/del-yari-g/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          <a href="https://github.com/deliscool" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+        </div>
+      </article>
+
+      <div class="split-hero__copy">
+        <h2 class="split-hero__hello">Hello,</h2>
+        <p class="split-hero__lede">I&#8217;m Del Guerra &mdash;</p>
+        <p class="split-hero__lede">I build the systems that don&#8217;t exist yet, then translate them for the people who have to trust them &mdash; across defense, nonprofit, and volunteer contexts.</p>
+
+        <h3>About Me</h3>
+        <p>I help organizations turn fragmented systems and misapplied frameworks into governed, adopted platforms, combining hands-on technical build skills with Agile coaching and stakeholder translation. That work has recovered <strong>$100K in unbilled revenue</strong>, cut delivery timelines by up to <strong>90%</strong>, and taken customer adoption from <strong>30% to 80%</strong>.</p>
+        <p>Most people in delivery roles own one half of that equation &mdash; either the technical build, handed to engineers, or the stakeholder rollout, handed to a change manager. I own both.</p>
+
+        <div class="cta-row">
+          <a class="btn btn-solid btn-pill" href="resume.html">Resume</a>
+          <a class="btn btn-solid btn-pill" href="projects.html">Projects</a>
+          <a class="btn btn-solid btn-pill" href="https://devmoms.com/" target="_blank" rel="noopener">DevMoms</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <section>
-    <div class="wrap">
-      <span class="eyebrow">Hello</span>
-      <h2>I'm Del Guerra</h2>
-      <p class="lede">I build the systems that don’t exist yet, then translate them for the people who have to trust them — across defense, nonprofit, and volunteer contexts.</p>
-
-      <h3 style="margin-top:40px;">About Me</h3>
-      <p class="lede">I help organizations turn fragmented systems and misapplied frameworks into governed, adopted platforms, combining hands-on technical build skills with Agile coaching and stakeholder translation. That work has recovered <strong>$100K in unbilled revenue</strong>, cut delivery timelines by up to <strong>90%</strong>, and taken customer adoption from <strong>30% to 80%</strong>.</p>
-      <p class="lede">Most people in delivery roles own one half of that equation — either the technical build, handed off to engineers, or the stakeholder rollout, handed to a separate change manager. I own both. Whether it’s a broken reporting process, a misapplied Agile framework, or a fragmented data platform, I can walk into unfamiliar technical territory and turn it into something leadership can act on.</p>
-
-      <div class="cta-row">
-        <a class="btn btn-solid" href="resume.html">Resume</a>
-        <a class="btn btn-outline" href="projects.html">Projects</a>
-        <a class="btn btn-outline" href="https://devmoms.com/" target="_blank" rel="noopener">DevMoms</a>
-      </div>
-    </div>
-  </section>
 </main>
 
 <footer class="site-footer">
