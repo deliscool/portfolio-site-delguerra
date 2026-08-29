@@ -456,3 +456,9 @@ section { padding: 56px 0; }
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+
+/* Text-only project cards (no thumbnail) */
+.project-card--text { grid-template-columns: 1fr; }
+@media (max-width: 560px) {
+  .project-card--text { grid-template-columns: 1fr; }
+}
